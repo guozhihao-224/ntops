@@ -37,6 +37,7 @@ from ntops.torch.softmax import softmax
 from ntops.torch.sub import sub
 from ntops.torch.tanh import tanh
 from ntops.torch.sqrt import sqrt
+from ntops.torch.elu import elu
 
 __all__ = [
     "abs",
@@ -59,6 +60,7 @@ __all__ = [
     "isnan",
     "layer_norm",
     "sqrt",
+    "elu",
     "le",
     "lt",
     "matmul",
