@@ -38,6 +38,7 @@ from ntops.torch.sub import sub
 from ntops.torch.tanh import tanh
 from ntops.torch.sqrt import sqrt
 from ntops.torch.elu import elu
+from ntops.torch.diagflat import diagflat
 
 __all__ = [
     "abs",
@@ -61,6 +62,7 @@ __all__ = [
     "layer_norm",
     "sqrt",
     "elu",
+    "diagflat",
     "le",
     "lt",
     "matmul",
