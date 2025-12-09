@@ -1,6 +1,7 @@
 from ntops.torch.abs import abs
 from ntops.torch.add import add
 from ntops.torch.addmm import addmm
+from ntops.torch.aminmax import aminmax
 from ntops.torch.bitwise_and import bitwise_and
 from ntops.torch.bitwise_not import bitwise_not
 from ntops.torch.bitwise_or import bitwise_or
@@ -44,6 +45,7 @@ __all__ = [
     "abs",
     "add",
     "addmm",
+    "aminmax",
     "bitwise_and",
     "bitwise_not",
     "bitwise_or",
