@@ -10,6 +10,9 @@ from ntops.torch.cos import cos
 from ntops.torch.div import div
 from ntops.torch.dropout import dropout
 from ntops.torch.eq import eq
+from ntops.torch.erf import erf
+from ntops.torch.erfc import erfc
+from ntops.torch.erfinv import erfinv
 from ntops.torch.exp import exp
 from ntops.torch.ge import ge
 from ntops.torch.gelu import gelu
@@ -50,6 +53,9 @@ __all__ = [
     "div",
     "dropout",
     "eq",
+    "erf",
+    "erfc",
+    "erfinv",
     "exp",
     "ge",
     "gelu",
