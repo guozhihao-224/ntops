@@ -1,5 +1,6 @@
 import functools
 
+import ninetoothed.language as ntl
 from ninetoothed import Tensor
 from ninetoothed.language import libdevice
 
@@ -7,7 +8,7 @@ from ntops.kernels.element_wise import arrangement
 
 
 def application(input, output):
-    output = libdevice.erfinv(input)  # noqa: F841
+    output = libdevice.erfinv(ntl.cast(input, ntl.float32))  # noqa: F841
 
 
 def premake(ndim, dtype=None, block_size=None):

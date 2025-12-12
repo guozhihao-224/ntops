@@ -7,7 +7,7 @@ from ntops.kernels.element_wise import arrangement
 
 
 def application(input, output):
-    output = ntl.erf(input)  # noqa: F841
+    output = ntl.erf(ntl.cast(input, ntl.float32))  # noqa: F841
 
 
 def premake(ndim, dtype=None, block_size=None):
