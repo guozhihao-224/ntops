@@ -39,6 +39,7 @@ from ntops.kernels import (
     softmax,
     sub,
     tanh,
+    matrix_power,
 )
 
 __all__ = [
@@ -82,4 +83,5 @@ __all__ = [
     "softmax",
     "sub",
     "tanh",
+    "matrix_power",
 ]
